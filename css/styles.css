@@ -31,11 +31,11 @@ ul{
     padding-bottom: 120px;
 }
 .container{
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1158px;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 img{
     display: block;
@@ -94,9 +94,11 @@ span {
 .header-item {
 }
 .header-link {
+    font-size: var(--typical-fs);
     line-height: var(--typical-lh);
     letter-spacing: 0.02em;
     color: var(--header-color);
+    font-weight: var(--typical-fw);
     padding-right: 5px;
     padding-left: 5px;
 }
@@ -104,17 +106,17 @@ span {
 .header-link:focus {
     color: #404bbf;
 }
-.header-adress {
+.header-address {
     display: flex;
     margin-left: auto;
 
 }
-.adress-list {
+.address-list {
     display: flex;
     gap: 40px;
 
 }
-.adress-item {
+.address-item {
 }
 .contacs {
     font-style: normal;
@@ -126,15 +128,18 @@ span {
     padding-right: 5px;
 }
 
-.adress-mail {}
+.address-mail {}
 
-.adress-mail:hover,
-.adress-mail:focus {
+.address-mail:hover,
+.address-mail:focus {
     color: #404bbf;
 }
-.adress-tel {
+.address-tel {
 }
-
+.address-tel:hover,
+.address-tel:focus {
+    color: #404bbf;
+}
 /*______________________HERO____________________*/
 
 .hero {
@@ -146,12 +151,11 @@ span {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--title-color);
     margin-right: auto;
     margin-left: auto;
-    max-width: 500px;
+    max-width: 526px;
 }
 .hero-btn {
     min-width: 169px;
@@ -255,14 +259,13 @@ span {
     gap: 24px;
 }
 .team-content{
-    width: 232px;
     padding: 32px 16px;
-    margin-right: 49px;
-    margin-left: 49px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items:
 }
 .team-item {
     background-color: #ffffff;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px/4));
     margin-top: 72px;
